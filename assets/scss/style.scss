@@ -3,6 +3,8 @@ body{
 }
 header{
     nav{
+        position:sticky;
+        top: 0;
         .container{
             .col-md-6{
                 padding: 7px;
@@ -168,8 +170,40 @@ main{
                         font-family: 'Shadows Into Light', cursive;
                     }
                 }
+
+                .col-md-6{
+                    .contact-us-box{
+                        background-color: #f4f4f4;
+                        width: 100%;
+                    }
+                }
+
+             
             }
         }
     }
+}
+.small-p{
+    font-size: 13px;
+}
 
+footer{
+    background-color: #1f1f24;
+    .container{
+        .row{
+            border-bottom: 1px solid rgb(70, 66, 66);
+
+            .footer-item{
+                .footer-item-content-2{
+                    ul>li{
+                        color: grey;
+                        transition: 0.2s;
+                        &:hover{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

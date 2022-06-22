@@ -2,6 +2,12 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+header nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 header nav .container .col-md-6 {
   padding: 7px;
 }
@@ -149,5 +155,32 @@ main #contact-us .container .row .contact-context p {
 
 main #contact-us .container .row .contact-context h1 {
   font-family: 'Shadows Into Light', cursive;
+}
+
+main #contact-us .container .row .col-md-6 .contact-us-box {
+  background-color: #f4f4f4;
+  width: 100%;
+}
+
+.small-p {
+  font-size: 13px;
+}
+
+footer {
+  background-color: #1f1f24;
+}
+
+footer .container .row {
+  border-bottom: 1px solid #464242;
+}
+
+footer .container .row .footer-item .footer-item-content-2 ul > li {
+  color: grey;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+footer .container .row .footer-item .footer-item-content-2 ul > li:hover {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
