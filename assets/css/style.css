@@ -1,0 +1,153 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header nav .container .col-md-6 {
+  padding: 7px;
+}
+
+header nav .container .col-md-6 ul > li .active::before {
+  content: "";
+  position: absolute;
+  background-color: red;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+header nav .container .col-md-6 ul > li a {
+  text-decoration: none;
+  color: #3d3c3c;
+  margin-right: 20px;
+  position: relative;
+}
+
+header nav .container .col-md-6 ul > li a::before {
+  content: "";
+  position: absolute;
+  background-color: red;
+  bottom: -6px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+header nav .container .col-md-6 ul > li a:hover::before {
+  content: "";
+  position: absolute;
+  background-color: red;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+main #enjoyHealty {
+  background-color: #eeeeee;
+}
+
+main #enjoyHealty .container .row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main #enjoyHealty .container .row .col-md-4 .enjoy-modal a {
+  color: #2b2929;
+}
+
+main #enjoyHealty .container .row .col-md-4 .enjoy-modal a i {
+  padding: 7px 7px 7px 9px;
+  font-size: 12px;
+}
+
+main #about-us .container .row .about-us-content p {
+  font-size: 14px;
+}
+
+main #about-us .container .row .about-us-content h2 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+main #about-us .container .row .col-md-7 {
+  position: relative;
+}
+
+main #about-us .container .row .col-md-7 img {
+  width: 100%;
+}
+
+main #about-us .container .row .col-md-7 .about-us-contact {
+  width: 80%;
+  position: absolute;
+  left: 60px;
+  bottom: 30px;
+}
+
+main #about-us .container .row .col-md-4 {
+  color: grey;
+  font-size: 14px;
+}
+
+main #about-us .container .row .col-md-4 img {
+  width: 97%;
+}
+
+main #about-us .container .row .col-md-4 .about-modal {
+  position: relative;
+}
+
+main #about-us .container .row .col-md-4 .about-modal a > i {
+  font-size: 20px;
+  padding: 23px 23px 23px 27px;
+  position: absolute;
+  top: 42%;
+  right: 42%;
+  cursor: pointer;
+  background-color: red;
+}
+
+main #chefs {
+  background-color: #eeeeee;
+}
+
+main #chefs .container .row .chefs-context p {
+  font-size: 13px;
+  color: grey;
+}
+
+main #chefs .container .row .chefs-context h1 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+main #chefs .container .row .col-md-4 {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+main #chefs .container .row .col-md-4:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+main #chefs .container .row .col-md-4 .card .card-body p:nth-child(2) {
+  color: #a7a2a2;
+  font-size: 14px;
+  margin-top: -15px;
+}
+
+main #chefs .container .row .col-md-4 .card .card-body p:nth-child(3) {
+  font-size: 14px;
+}
+
+main #contact-us .container .row .contact-context p {
+  font-size: 13px;
+  color: grey;
+}
+
+main #contact-us .container .row .contact-context h1 {
+  font-family: 'Shadows Into Light', cursive;
+}
+/*# sourceMappingURL=style.css.map */

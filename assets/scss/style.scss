@@ -1,0 +1,175 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    nav{
+        .container{
+            .col-md-6{
+                padding: 7px;
+                ul>li
+                {
+                    .active{
+                        &::before{
+                            content: "";
+                            position: absolute;
+                            background-color: red;
+                            bottom: -6px;
+                            left: 0;
+                            width: 100%;
+                            height: 2px;
+                        }
+                    }
+                    a{
+                    text-decoration: none;
+                    color: rgb(61, 60, 60);
+                    margin-right: 20px;
+                    position: relative;
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        background-color: red;
+                        bottom: -6px;
+                        left: 0;
+                        width: 0;
+                        height: 2px;
+                        transition: 0.2s;
+                    }
+                    &:hover::before{
+                        content: "";
+                        position: absolute;
+                        background-color: red;
+                        bottom: -6px;
+                        left: 0;
+                        width: 100%;
+                        height: 2px;
+                    }
+                }
+                }
+            }
+        }
+    }
+}
+
+main{
+    #enjoyHealty{
+        background-color: #eeeeee;
+        .container{
+            .row{
+                justify-content: space-around;
+                .col-md-4{
+                    .enjoy-modal{
+                        a{
+                            color: rgb(43, 41, 41);
+                            i{
+                                padding: 7px 7px 7px 9px;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #about-us{
+        .container{
+            .row{
+                .about-us-content{
+                    p{
+                        font-size: 14px;
+                    }
+                    h2{
+                        font-family: 'Shadows Into Light', cursive;
+                    }
+                }
+                .col-md-7{
+                     position: relative;
+                     img{
+                         width: 100%;
+                     }
+                    .about-us-contact{
+                        width: 80%;
+                        position: absolute;
+                        left: 60px;
+                        bottom: 30px;
+                    }
+                }
+                .col-md-4{
+                    color: grey;
+                    font-size: 14px;
+                        img{
+                            width: 97%;
+                        }
+                        .about-modal{
+                            position: relative;
+                            a>i{
+                                font-size: 20px;
+                                padding: 23px 23px 23px 27px;
+                                position: absolute;
+                                top: 42%;
+                                right: 42%;
+                                cursor: pointer;
+                                background-color: red;
+                            }
+                        }
+                    }
+                        
+                    
+                    
+                
+            }
+        }
+    }
+
+    #chefs{
+        background-color: #eeeeee;
+        .container{
+            .row{
+                .chefs-context{
+                    p{
+                        font-size: 13px;
+                        color: grey;
+                    }
+                    h1{
+                        font-family: 'Shadows Into Light', cursive;
+                    }
+                }
+                .col-md-4{
+                    transition: 0.3s;
+                    &:hover{
+                        transform: scale(1.05);
+                    }
+                    .card{
+                        .card-body{
+                            p:nth-child(2) {
+                                color: rgb(167, 162, 162);
+                                font-size: 14px;
+                                margin-top: -15px;
+                              }
+                              p:nth-child(3) {
+                                font-size: 14px;
+                              }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #contact-us{
+        .container{
+            .row{
+                .contact-context{
+                    p{
+                        font-size: 13px;
+                        color: grey;
+                    }
+                    h1{
+                        font-family: 'Shadows Into Light', cursive;
+                    }
+                }
+            }
+        }
+    }
+
+}
